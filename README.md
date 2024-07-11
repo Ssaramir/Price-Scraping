@@ -19,14 +19,14 @@ This project involves developing a web scraper to extract competitor pricing dat
 
 ## Project Structure
 
+```plaintext
 .
 ├── config.json                # Configuration file with website URLs and selectors
 ├── scraper.py                 # Main script for scraping competitor pricing data
 ├── requirements.txt           # Python dependencies
 └── scraping_results/          # Directory where scraped data is stored
     └── competitors_price_<date>.csv
-
-
+```
 
 ## Usage
 
@@ -39,15 +39,3 @@ pip install -r requirements.txt
 3. **Run the Scraper:**
 python scraper.py
 
-
-The scraped data will be saved in the `scraping_results` directory with a date-based filename.
-
-## Future Enhancements
-
-- **Enhanced Data Analysis:** Add more sophisticated EDA techniques to generate deeper insights.
-- **Visualization:** Incorporate data visualization tools to present the data in a more intuitive way.
-- **Automation:** Schedule the scraper to run periodically and update the data automatically.
-
-## License
-
-This project is not yet open-source.
